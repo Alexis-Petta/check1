@@ -4,13 +4,8 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
-#include "runCPU.c"
 
-t_log* logger;
-
-int main() {
-    //start connections//
-    RUN_CPU();
-    
-    return 0;
-}
+//function prototypes
+void RUN_CPU();
+void memory_connection();
+void kernel_connection();
